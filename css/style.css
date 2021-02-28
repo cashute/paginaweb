@@ -1,0 +1,117 @@
+
+          body { 
+            background-color: rgb(255, 255, 255);
+          
+           }
+           
+        .fondo {
+          background-color: rgb(247, 50, 244);
+        }    
+           
+        .navbar ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: rgb(234, 27, 54);
+        }
+        
+
+        li {
+          float: left;
+        }
+        
+        li a, .dropbtn {
+          display: inline-block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        
+        li a:hover, .dropdown:hover .dropbtn {
+          background-color: red;
+        }
+        
+        li.dropdown {
+          display: inline-block;
+        }
+        
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f9f9f9;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+        }
+        
+        .dropdown-content a {
+          color: black;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+          text-align: left;
+        }
+        
+        .dropdown-content a:hover {background-color: #f1f1f1;}
+        
+        .dropdown:hover .dropdown-content {
+          display: block;
+        }
+      
+
+  .circulo {
+	width: 20rem;
+	height: 20rem;
+  border: solid 10px #000;
+	border-radius: 50%;
+	background: red;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+  margin:20px auto;
+  padding:3%
+  
+}
+
+.circulo > h2 {
+	font-family: sans-serif;
+	color: white;
+	font-size: 1.4rem;
+	font-weight: bold;
+}
+.circulo1 {
+	width: 20rem;
+	height: 20rem;
+  border: solid 10px #000;
+	border-radius: 50%;
+	background: red;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+  margin:100px auto;
+  padding:3%
+  
+}
+
+.circulo1 > h2 {
+	font-family: sans-serif;
+	color: white;
+	font-size: 1.4rem;
+	font-weight: bold;
+}
+h4 {
+	font-family: sans-serif;
+	color: rgb(10, 10, 10);
+	font-size: 1.4rem;
+	font-weight: bold;
+}
+h5 {
+	font-family: sans-serif;
+	color: rgb(10, 10, 10);
+	font-size: 1.4rem;
+	font-weight: bold;
+}
